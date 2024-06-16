@@ -2,7 +2,7 @@
   "version": 3,
   "builds": [
     {
-      "src": ".",  // Replace with directory containing build.sh
+      "src": ".",  
       "use": "@vercel/static"
     }
   ]
