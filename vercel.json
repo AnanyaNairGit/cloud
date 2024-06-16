@@ -3,7 +3,7 @@
   "builds": [
     {
       "src": "app.py templates/ static/",  
-      "use": "@vercel/static"
+      "use": "@vercel/python"
     }
   ]
 }
