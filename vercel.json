@@ -2,8 +2,9 @@
   "version": 2,
   "builds": [
     {
-      "src": "scripts/",  
-      "use": "@vercel/static"
+      "src": "app.py templates/ static/",  
+      "use": "@vercel/static",
+      "build": "scripts/"
     }
   ]
 }
